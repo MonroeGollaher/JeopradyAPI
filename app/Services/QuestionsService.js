@@ -15,6 +15,12 @@ class QuestionService {
       // console.log(question.answer)
     })
   }
+
+  getAnswer(){
+    api.get().then(answer => {
+      
+    })
+  }
 }
 
 export const questionService = new QuestionService();

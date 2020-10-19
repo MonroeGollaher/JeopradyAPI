@@ -18,4 +18,8 @@ export default class QuestionController {
     questionService.getQuestion()
   }
 
+  getAnswer(){
+    questionService.getAnswer()
+  }
+
 }
